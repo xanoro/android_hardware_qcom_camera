@@ -42,6 +42,8 @@ LOCAL_SRC_FILES += \
 
 LOCAL_CFLAGS := -Wall -Wextra -Werror
 
+LOCAL_CFLAGS += -DDEFAULT_ZSL_MODE_ON
+
 # System header file path prefix
 LOCAL_CFLAGS += -DSYSTEM_HEADER_PREFIX=sys
 
